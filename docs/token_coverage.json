@@ -1,0 +1,21 @@
+{
+  "rows": [
+    {
+      "model": "paraphrase-multilingual-MiniLM-L12-v2",
+      "max_tokens": 128,
+      "chunks": 4099,
+      "median_tokens": 449,
+      "over_limit_pct": 99.2,
+      "avg_text_seen_pct": 32.4
+    },
+    {
+      "model": "multilingual-e5-large",
+      "max_tokens": 512,
+      "chunks": 4099,
+      "median_tokens": 451,
+      "over_limit_pct": 10.0,
+      "avg_text_seen_pct": 99.6
+    }
+  ],
+  "run_at": "2026-11-09T14:37:17"
+}

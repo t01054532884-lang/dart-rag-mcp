@@ -1,0 +1,84 @@
+{
+  "n": 11,
+  "max_abs_diff_pct": 0.0017,
+  "rows": [
+    {
+      "company": "SK하이닉스",
+      "text_eok": 971468,
+      "tool_eok": 971466.8,
+      "diff_pct": -0.0001,
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000635"
+    },
+    {
+      "company": "기아",
+      "text_eok": 1141410,
+      "tool_eok": 1141409.2,
+      "diff_pct": -0.0001,
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001224"
+    },
+    {
+      "company": "셀트리온",
+      "text_eok": 41625,
+      "tool_eok": 41625.0,
+      "diff_pct": -0.0001,
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001415"
+    },
+    {
+      "company": "삼성바이오로직스",
+      "text_eok": 45570,
+      "tool_eok": 45569.7,
+      "diff_pct": -0.0006,
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515001658"
+    },
+    {
+      "company": "LG에너지솔루션",
+      "text_eok": 236718,
+      "tool_eok": 236717.6,
+      "diff_pct": -0.0002,
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000217"
+    },
+    {
+      "company": "현대모비스",
+      "text_eok": 611181,
+      "tool_eok": 611181.3,
+      "diff_pct": 0.0,
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001878"
+    },
+    {
+      "company": "크래프톤",
+      "text_eok": 33266,
+      "tool_eok": 33265.5,
+      "diff_pct": -0.0014,
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002689"
+    },
+    {
+      "company": "LG화학",
+      "text_eok": 459322,
+      "tool_eok": 459321.7,
+      "diff_pct": -0.0001,
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001195"
+    },
+    {
+      "company": "한국전력공사",
+      "text_eok": 974294,
+      "tool_eok": 974293.5,
+      "diff_pct": -0.0001,
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000686"
+    },
+    {
+      "company": "삼성SDI",
+      "text_eok": 132667,
+      "tool_eok": 132667.3,
+      "diff_pct": 0.0002,
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002954"
+    },
+    {
+      "company": "NC",
+      "text_eok": 15069,
+      "tool_eok": 15069.3,
+      "diff_pct": 0.0017,
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001448"
+    }
+  ],
+  "run_at": "2026-11-09T14:18:47"
+}

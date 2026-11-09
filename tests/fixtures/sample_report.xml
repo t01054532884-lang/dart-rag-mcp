@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+<DOCUMENT-NAME ACODE="11011">사업보고서</DOCUMENT-NAME>
+<BODY>
+<SECTION-1 ACLASS="MANDATORY"><TITLE ATOC="Y" AASSOCNOTE="D-0-1-0-0">I. 회사의 개요</TITLE>
+<P>회사 개요는 수집하지 않는 장입니다.</P>
+</SECTION-1>
+<SECTION-1 ACLASS="MANDATORY"><TITLE ATOC="Y" AASSOCNOTE="D-0-2-0-0">II. 사업의 내용</TITLE>
+<SECTION-2 ACLASS="MANDATORY"><TITLE ATOC="Y">1. 사업의 개요</TITLE>
+<P>당사는 메모리 반도체를 생산하며 HBM &amp; DDR5 제품의 비중이 늘고 있습니다.</P>
+<P>AI 서버 수요 증가로 고대역폭 메모리 판매가 확대되었습니다.</P>
+</SECTION-2>
+<SECTION-2 ACLASS="MANDATORY"><TITLE ATOC="Y">2. 주요 제품 및 서비스</TITLE>
+<TABLE><TBODY>
+<TR><TH>구분</TH><TH>매출액</TH><TH>비중</TH></TR>
+<TR><TD>DRAM</TD><TD>1,000</TD><TD>70%</TD></TR>
+<TR><TD>NAND</TD><TD>430</TD><TD>30%</TD></TR>
+</TBODY></TABLE>
+</SECTION-2>
+</SECTION-1>
+<SECTION-1 ACLASS="MANDATORY"><TITLE ATOC="Y">IV. 이사의 경영진단 및 분석의견</TITLE>
+<SECTION-2><TITLE>1. 예측정보에 대한 주의사항</TITLE>
+<P>환율 변동과 경기 둔화가 실적에 영향을 줄 수 있습니다.</P>
+</SECTION-2>
+</SECTION-1>
+</BODY>
+</DOCUMENT>

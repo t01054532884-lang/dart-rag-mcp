@@ -1,0 +1,13 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev,agent]"
+      # 테스트는 픽스처 데이터 + 해시 임베딩 + 가짜 Claude 응답만 쓴다 (API 키·모델 다운로드 없음)
+      - run: pytest -q

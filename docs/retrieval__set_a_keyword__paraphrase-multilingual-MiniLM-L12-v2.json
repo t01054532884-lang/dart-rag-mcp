@@ -1,0 +1,402 @@
+{
+  "n_questions": 30,
+  "k": 10,
+  "modes": {
+    "bm25": {
+      "hit@1": 0.9,
+      "hit@5": 1.0,
+      "mrr@10": 0.942
+    },
+    "vector": {
+      "hit@1": 0.3,
+      "hit@5": 0.567,
+      "mrr@10": 0.427
+    },
+    "hybrid": {
+      "hit@1": 0.567,
+      "hit@5": 0.833,
+      "mrr@10": 0.668
+    },
+    "hybrid_bm25w0.7": {
+      "hit@1": 0.7,
+      "hit@5": 0.867,
+      "mrr@10": 0.766
+    },
+    "hybrid_bm25w0.8": {
+      "hit@1": 0.733,
+      "hit@5": 0.933,
+      "mrr@10": 0.807
+    },
+    "hybrid_bm25w0.9": {
+      "hit@1": 0.733,
+      "hit@5": 1.0,
+      "mrr@10": 0.837
+    }
+  },
+  "per_question": [
+    {
+      "id": "q01",
+      "question": "디지털 콕핏과 카오디오 같은 전장 제품을 만드는 자회사는 어디야?",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q02",
+      "question": "고대역폭 메모리 HBM 판매와 AI 서버 수요",
+      "rank": {
+        "bm25": 1,
+        "vector": 2,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q03",
+      "question": "전기차, ESS, 전동공구, 경량 전기 이동수단에 들어가는 배터리를 단일 사업부문으로 만드는 회사",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q04",
+      "question": "바이오시밀러 사업과의 이해 상충을 없애려고 회사를 쪼개 위탁개발생산에만 집중하기로 한 결정",
+      "rank": {
+        "bm25": 2,
+        "vector": null,
+        "hybrid": null,
+        "hybrid_bm25w0.7": 9,
+        "hybrid_bm25w0.8": 6,
+        "hybrid_bm25w0.9": 5
+      }
+    },
+    {
+      "id": "q05",
+      "question": "종합무기체계와 고속철 차량을 만드는 자회사의 수주잔고",
+      "rank": {
+        "bm25": 1,
+        "vector": 3,
+        "hybrid": 5,
+        "hybrid_bm25w0.7": 3,
+        "hybrid_bm25w0.8": 2,
+        "hybrid_bm25w0.9": 2
+      }
+    },
+    {
+      "id": "q06",
+      "question": "목적기반차량 PV5 패신저와 카고 출시",
+      "rank": {
+        "bm25": 1,
+        "vector": 2,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q07",
+      "question": "인플릭시맙 피하주사 제형의 미국 FDA 신약 허가",
+      "rank": {
+        "bm25": 1,
+        "vector": 7,
+        "hybrid": 3,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q08",
+      "question": "효율경영과 혁신성장 두 축으로 운영한 금융그룹",
+      "rank": {
+        "bm25": 1,
+        "vector": null,
+        "hybrid": 3,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q09",
+      "question": "한국거래소와 미국 뉴욕 증시에 동시에 상장된 금융지주회사",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q10",
+      "question": "외환은행과 합병해서 출범한 은행",
+      "rank": {
+        "bm25": 1,
+        "vector": 4,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 2
+      }
+    },
+    {
+      "id": "q11",
+      "question": "세계 최고층 빌딩 부르즈 칼리파를 시공한 건설부문",
+      "rank": {
+        "bm25": 1,
+        "vector": null,
+        "hybrid": 10,
+        "hybrid_bm25w0.7": 6,
+        "hybrid_bm25w0.8": 4,
+        "hybrid_bm25w0.9": 3
+      }
+    },
+    {
+      "id": "q12",
+      "question": "자체 초거대 AI 모델을 검색, 커머스, 광고에 적용",
+      "rank": {
+        "bm25": 1,
+        "vector": null,
+        "hybrid": 9,
+        "hybrid_bm25w0.7": 8,
+        "hybrid_bm25w0.8": 5,
+        "hybrid_bm25w0.9": 2
+      }
+    },
+    {
+      "id": "q13",
+      "question": "다음 포털의 사용자 트래픽에서 나오는 온라인 광고 매출",
+      "rank": {
+        "bm25": 1,
+        "vector": 9,
+        "hybrid": 4,
+        "hybrid_bm25w0.7": 5,
+        "hybrid_bm25w0.8": 5,
+        "hybrid_bm25w0.9": 3
+      }
+    },
+    {
+      "id": "q14",
+      "question": "이차전지소재부문 이름을 에너지소재부문으로 바꿨다가 다시 되돌린 조직개편",
+      "rank": {
+        "bm25": 1,
+        "vector": null,
+        "hybrid": 4,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q15",
+      "question": "재생플라스틱 PCR과 바이오 납사를 쓴 친환경 소재 제품",
+      "rank": {
+        "bm25": 1,
+        "vector": null,
+        "hybrid": 7,
+        "hybrid_bm25w0.7": 5,
+        "hybrid_bm25w0.8": 4,
+        "hybrid_bm25w0.9": 2
+      }
+    },
+    {
+      "id": "q16",
+      "question": "데이터센터용 배터리 백업 유닛",
+      "rank": {
+        "bm25": 4,
+        "vector": null,
+        "hybrid": null,
+        "hybrid_bm25w0.7": null,
+        "hybrid_bm25w0.8": 7,
+        "hybrid_bm25w0.9": 4
+      }
+    },
+    {
+      "id": "q17",
+      "question": "샤시모듈, 칵핏모듈, 프론트엔드모듈을 완성차 공장에 순서대로 맞춰 공급하는 방식",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q18",
+      "question": "생존보험, 사망보험, 생사혼합보험별 수입보험료",
+      "rank": {
+        "bm25": 1,
+        "vector": 10,
+        "hybrid": 2,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q19",
+      "question": "일반보험, 자동차보험, 장기보험의 보험수익",
+      "rank": {
+        "bm25": 2,
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q20",
+      "question": "발전자회사가 생산한 전기를 전력거래소에서 사서 고객에게 파는 구조",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q21",
+      "question": "국제전화 00700과 이동통신 재판매 사업을 하는 자회사",
+      "rank": {
+        "bm25": 1,
+        "vector": null,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q22",
+      "question": "신용카드 사업을 하는 금융부문 자회사 비씨카드",
+      "rank": {
+        "bm25": 1,
+        "vector": 2,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q23",
+      "question": "차량용 텔레매틱스와 AVN을 만드는 사업부문",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q24",
+      "question": "일본 광고·애니메이션 콘텐츠 기업 인수",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid": 2,
+        "hybrid_bm25w0.7": 2,
+        "hybrid_bm25w0.8": 2,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q25",
+      "question": "LNG선과 군함을 건조하고 선박용 엔진을 만드는 사업부문 매출",
+      "rank": {
+        "bm25": 1,
+        "vector": 6,
+        "hybrid": 3,
+        "hybrid_bm25w0.7": 3,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q26",
+      "question": "한국형 발사체 누리호와 우주 사업",
+      "rank": {
+        "bm25": 1,
+        "vector": 3,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q27",
+      "question": "설화수, 라네즈, 코스알엑스 등 화장품 브랜드 포트폴리오",
+      "rank": {
+        "bm25": 1,
+        "vector": 2,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q28",
+      "question": "사료·축산 Feed & Care 부문 종속기업 매각과 중단영업",
+      "rank": {
+        "bm25": 1,
+        "vector": 6,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q29",
+      "question": "미국에서 운영하는 슈퍼마켓 Bristol Farms와 New Seasons Market",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "q30",
+      "question": "아이온2 이후 2026년에 나올 자체 개발 신작 게임",
+      "rank": {
+        "bm25": 1,
+        "vector": 5,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    }
+  ],
+  "questions_file": "eval/set_a_keyword.jsonl",
+  "embed_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "chunks": 4099,
+  "run_at": "2026-11-09T14:39:26"
+}

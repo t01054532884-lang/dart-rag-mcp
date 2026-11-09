@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "dart-rag": {
+      "command": "<레포 경로>\\.venv\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "dart_rag.mcp_server"
+      ],
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}

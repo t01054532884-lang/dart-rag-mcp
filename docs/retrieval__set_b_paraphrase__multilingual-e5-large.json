@@ -1,0 +1,437 @@
+{
+  "n_questions": 30,
+  "k": 10,
+  "modes": {
+    "bm25": {
+      "hit@1": 0.433,
+      "hit@5": 0.633,
+      "mrr@10": 0.541
+    },
+    "vector": {
+      "hit@1": 0.4,
+      "hit@5": 0.667,
+      "mrr@10": 0.52
+    },
+    "hybrid_bm25w0.3": {
+      "hit@1": 0.533,
+      "hit@5": 0.733,
+      "mrr@10": 0.634
+    },
+    "hybrid": {
+      "hit@1": 0.567,
+      "hit@5": 0.833,
+      "mrr@10": 0.673
+    },
+    "hybrid_bm25w0.7": {
+      "hit@1": 0.6,
+      "hit@5": 0.833,
+      "mrr@10": 0.698
+    },
+    "hybrid_bm25w0.8": {
+      "hit@1": 0.633,
+      "hit@5": 0.8,
+      "mrr@10": 0.712
+    },
+    "hybrid_bm25w0.9": {
+      "hit@1": 0.5,
+      "hit@5": 0.733,
+      "mrr@10": 0.602
+    }
+  },
+  "per_question": [
+    {
+      "id": "p01",
+      "question": "공조 회사를 인수해서 글로벌 냉난방공조 기업으로 키우려는 계획",
+      "rank": {
+        "bm25": 9,
+        "vector": null,
+        "hybrid_bm25w0.3": 6,
+        "hybrid": 5,
+        "hybrid_bm25w0.7": 5,
+        "hybrid_bm25w0.8": 5,
+        "hybrid_bm25w0.9": 5
+      }
+    },
+    {
+      "id": "p02",
+      "question": "기후 관련 정보공개 평가에서 10년째 최상위 그룹에 머무른 기록",
+      "rank": {
+        "bm25": null,
+        "vector": 2,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 2,
+        "hybrid_bm25w0.8": 2,
+        "hybrid_bm25w0.9": 8
+      }
+    },
+    {
+      "id": "p03",
+      "question": "달러 환위험을 줄이려고 국내외 은행과 맺은 통화 교환 계약",
+      "rank": {
+        "bm25": null,
+        "vector": 2,
+        "hybrid_bm25w0.3": null,
+        "hybrid": null,
+        "hybrid_bm25w0.7": null,
+        "hybrid_bm25w0.8": null,
+        "hybrid_bm25w0.9": null
+      }
+    },
+    {
+      "id": "p04",
+      "question": "송도 공장들의 총 생산 용량과 미국 동부 생산시설 인수",
+      "rank": {
+        "bm25": 1,
+        "vector": 3,
+        "hybrid_bm25w0.3": 2,
+        "hybrid": 2,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p05",
+      "question": "할부·리스 같은 차량 금융 시장에 은행과 카드사가 새로 들어와 경쟁이 심해진 상황",
+      "rank": {
+        "bm25": 2,
+        "vector": 5,
+        "hybrid_bm25w0.3": 2,
+        "hybrid": 2,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 2
+      }
+    },
+    {
+      "id": "p06",
+      "question": "미국 충돌 안전 평가에서 최고 등급을 받은 차종",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p07",
+      "question": "주사로 맞는 항체 의약품을 먹는 캡슐로 바꾸는 기술 협력",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p08",
+      "question": "전체 대출 가운데 부실 대출이 차지하는 비율",
+      "rank": {
+        "bm25": null,
+        "vector": null,
+        "hybrid_bm25w0.3": null,
+        "hybrid": null,
+        "hybrid_bm25w0.7": null,
+        "hybrid_bm25w0.8": null,
+        "hybrid_bm25w0.9": null
+      }
+    },
+    {
+      "id": "p09",
+      "question": "카드로 물건을 사고 나눠서 갚을 때 받는 수수료 구조",
+      "rank": {
+        "bm25": null,
+        "vector": null,
+        "hybrid_bm25w0.3": null,
+        "hybrid": null,
+        "hybrid_bm25w0.7": null,
+        "hybrid_bm25w0.8": null,
+        "hybrid_bm25w0.9": null
+      }
+    },
+    {
+      "id": "p10",
+      "question": "지주회사가 계열사 자금 지원을 위해 보유한 영구채와 자회사 대여금",
+      "rank": {
+        "bm25": 2,
+        "vector": null,
+        "hybrid_bm25w0.3": null,
+        "hybrid": 4,
+        "hybrid_bm25w0.7": 2,
+        "hybrid_bm25w0.8": 2,
+        "hybrid_bm25w0.9": 2
+      }
+    },
+    {
+      "id": "p11",
+      "question": "상사 부문의 태양광·전력 저장장치·바이오 연료 신사업 계획",
+      "rank": {
+        "bm25": 9,
+        "vector": null,
+        "hybrid_bm25w0.3": 6,
+        "hybrid": 4,
+        "hybrid_bm25w0.7": 3,
+        "hybrid_bm25w0.8": 3,
+        "hybrid_bm25w0.9": 5
+      }
+    },
+    {
+      "id": "p12",
+      "question": "중앙은행과 원자력 발전 공기업에 제공한 전용 클라우드",
+      "rank": {
+        "bm25": null,
+        "vector": null,
+        "hybrid_bm25w0.3": null,
+        "hybrid": null,
+        "hybrid_bm25w0.7": null,
+        "hybrid_bm25w0.8": null,
+        "hybrid_bm25w0.9": null
+      }
+    },
+    {
+      "id": "p13",
+      "question": "광고 시장이 경제성장률보다 더 크게 출렁이는 경기 민감성",
+      "rank": {
+        "bm25": 1,
+        "vector": 2,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p14",
+      "question": "배터리 마이너스극 소재와 니켈 함량을 높인 양극 소재 기술 개발 실적",
+      "rank": {
+        "bm25": 2,
+        "vector": 1,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p15",
+      "question": "물류 로봇과 무인 배송까지 배터리 쓰임새가 넓어질 것이라는 전망",
+      "rank": {
+        "bm25": 3,
+        "vector": null,
+        "hybrid_bm25w0.3": 3,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p16",
+      "question": "거래처가 대금을 못 갚을 위험을 관리하는 방법",
+      "rank": {
+        "bm25": 10,
+        "vector": null,
+        "hybrid_bm25w0.3": 9,
+        "hybrid": 7,
+        "hybrid_bm25w0.7": 7,
+        "hybrid_bm25w0.8": 6,
+        "hybrid_bm25w0.9": 7
+      }
+    },
+    {
+      "id": "p17",
+      "question": "단종된 차의 수리용 부품을 몇 년 동안 보관하고 공급해야 하는 법 규정",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p18",
+      "question": "보험금 지급에 대비해 단기 자산을 충분히 들고 있는지 보는 지표",
+      "rank": {
+        "bm25": 3,
+        "vector": 4,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 2,
+        "hybrid_bm25w0.8": 2,
+        "hybrid_bm25w0.9": 3
+      }
+    },
+    {
+      "id": "p19",
+      "question": "영국 자회사와 재보험 자회사를 중심으로 한 해외 사업 방향",
+      "rank": {
+        "bm25": 8,
+        "vector": 2,
+        "hybrid_bm25w0.3": 2,
+        "hybrid": 2,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 4
+      }
+    },
+    {
+      "id": "p20",
+      "question": "발전소 부산물 의무공급 약정과 공동기업 사채 매입 의무",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p21",
+      "question": "휴대폰 가입자가 인구보다 많아 성장이 한계에 이른 통신 시장",
+      "rank": {
+        "bm25": 9,
+        "vector": 2,
+        "hybrid_bm25w0.3": 2,
+        "hybrid": 3,
+        "hybrid_bm25w0.7": 4,
+        "hybrid_bm25w0.8": 6,
+        "hybrid_bm25w0.9": 7
+      }
+    },
+    {
+      "id": "p22",
+      "question": "위성방송 자회사의 TV 상품 구성",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p23",
+      "question": "자회사의 스마트폰 카메라 부품 사업 전망",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p24",
+      "question": "청소년 온라인 게임 월 결제 상한과 뽑기 아이템 확률 공개 규제",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p25",
+      "question": "자체 기술로 만든 발전용 중속 엔진 브랜드",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p26",
+      "question": "국산 전투기 엔진 부품 제조 설비 증설",
+      "rank": {
+        "bm25": 1,
+        "vector": 7,
+        "hybrid_bm25w0.3": 4,
+        "hybrid": 2,
+        "hybrid_bm25w0.7": 2,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p27",
+      "question": "탈모·두피 관리 헤어 브랜드의 새 제품 라인",
+      "rank": {
+        "bm25": 2,
+        "vector": 1,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 2
+      }
+    },
+    {
+      "id": "p28",
+      "question": "바다와 흙에서 분해되는 바이오 플라스틱 소재",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p29",
+      "question": "쇼핑과 여가를 한 건물에서 즐기는 대형 몰 사업의 특성",
+      "rank": {
+        "bm25": 1,
+        "vector": 1,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 1
+      }
+    },
+    {
+      "id": "p30",
+      "question": "품질검수와 소프트웨어 개발 조직을 떼어내 새 회사를 만든 분할",
+      "rank": {
+        "bm25": null,
+        "vector": 6,
+        "hybrid_bm25w0.3": 1,
+        "hybrid": 1,
+        "hybrid_bm25w0.7": 1,
+        "hybrid_bm25w0.8": 1,
+        "hybrid_bm25w0.9": 6
+      }
+    }
+  ],
+  "questions_file": "eval/set_b_paraphrase.jsonl",
+  "embed_model": "intfloat/multilingual-e5-large",
+  "chunks": 4099,
+  "run_at": "2026-11-09T16:54:49"
+}
