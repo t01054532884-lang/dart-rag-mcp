@@ -1,0 +1,149 @@
+{
+  "company": "삼성전자",
+  "year": 2025,
+  "price_date": "2026-11-09",
+  "facts": [
+    {
+      "id": "revenue",
+      "label": "2025년 매출액",
+      "value": 333605938000000,
+      "display": "333.61조원",
+      "source": {
+        "rcept_no": "20260310002820",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
+      }
+    },
+    {
+      "id": "operating_income",
+      "label": "2025년 영업이익",
+      "value": 43601051000000,
+      "display": "43.60조원",
+      "source": {
+        "rcept_no": "20260310002820",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
+      }
+    },
+    {
+      "id": "net_income",
+      "label": "2025년 당기순이익",
+      "value": 45206805000000,
+      "display": "45.21조원",
+      "source": {
+        "rcept_no": "20260310002820",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
+      }
+    },
+    {
+      "id": "operating_margin",
+      "label": "영업이익률(%)",
+      "value": 13.07,
+      "display": "13.1%",
+      "source": {
+        "rcept_no": "20260310002820",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
+      }
+    },
+    {
+      "id": "revenue_growth",
+      "label": "매출 증가율(%)",
+      "value": 10.88,
+      "display": "10.9%",
+      "source": {
+        "rcept_no": "20260310002820",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
+      }
+    },
+    {
+      "id": "operating_income_growth",
+      "label": "영업이익 증가율(%)",
+      "value": 33.23,
+      "display": "33.2%",
+      "source": {
+        "rcept_no": "20260310002820",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
+      }
+    },
+    {
+      "id": "debt_ratio",
+      "label": "부채비율(%)",
+      "value": 29.94,
+      "display": "29.9%",
+      "source": {
+        "rcept_no": "20260310002820",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
+      }
+    },
+    {
+      "id": "roe",
+      "label": "ROE(%)",
+      "value": 10.85,
+      "display": "10.8%",
+      "source": {
+        "rcept_no": "20260310002820",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
+      }
+    },
+    {
+      "id": "market_cap",
+      "label": "2026-11-09 시가총액",
+      "value": 1110780383011000,
+      "display": "1,110.78조원",
+      "source": {
+        "rcept_no": "20260310002820",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
+      }
+    },
+    {
+      "id": "per",
+      "label": "후행 PER",
+      "value": 25.1,
+      "display": "25.1배",
+      "source": {
+        "rcept_no": "20260310002820",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
+      }
+    },
+    {
+      "id": "pbr",
+      "label": "PBR",
+      "value": 2.62,
+      "display": "2.6배",
+      "source": {
+        "rcept_no": "20260310002820",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "intro",
+      "seconds": 4.0,
+      "caption": "삼성전자 2025년 사업보고서 브리핑",
+      "visual_prompt": "clean room with silicon wafers under soft blue light, cinematic slow push-in, no text, no numbers, no letters, no logos, no brand names, no charts with labels"
+    },
+    {
+      "id": "revenue",
+      "seconds": 5.0,
+      "caption": "매출액 333.61조원 · 전년 대비 10.9%",
+      "visual_prompt": "clean room with silicon wafers under soft blue light, busy and productive mood, no text, no numbers, no letters, no logos, no brand names, no charts with labels"
+    },
+    {
+      "id": "profit",
+      "seconds": 5.0,
+      "caption": "영업이익 43.60조원 · 영업이익률 13.1%",
+      "visual_prompt": "clean room with silicon wafers under soft blue light, focused workers, steady camera, no text, no numbers, no letters, no logos, no brand names, no charts with labels"
+    },
+    {
+      "id": "valuation",
+      "seconds": 5.0,
+      "caption": "시가총액 1,110.78조원 · PER 25.1배 · PBR 2.6배",
+      "visual_prompt": "abstract stock market light trails, dark background, no text, no numbers, no letters, no logos, no brand names, no charts with labels"
+    },
+    {
+      "id": "source",
+      "seconds": 3.0,
+      "caption": "출처: DART 사업보고서 · 투자 권유 아님",
+      "visual_prompt": "clean room with silicon wafers under soft blue light, slow fade out, no text, no numbers, no letters, no logos, no brand names, no charts with labels"
+    }
+  ]
+}

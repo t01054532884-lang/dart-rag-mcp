@@ -13,6 +13,8 @@ from mcp.server.mcpserver import MCPServer
 from mcp.server.mcpserver.exceptions import ToolError
 from pydantic import Field
 
+from .briefing import check_numbers
+from .briefing import make_briefing as make_briefing_fn
 from .tools import METRICS, RATIOS, FinTools, ToolInputError
 
 INSTRUCTIONS = """\
@@ -119,6 +121,31 @@ def build_server(tools: FinTools) -> MCPServer:
     ) -> dict[str, Any]:
         """기준일 종가와 사업보고서 주식수로 시가총액, 후행 PER, PBR을 계산한다."""
         return tools.valuation(company, date, year)
+
+    @server.tool()
+    @_wrap
+    def make_briefing(
+        company: Company,
+        year: Year,
+        date: Annotated[str, Field(description="시가총액·PER 기준일 YYYY-MM-DD")],
+    ) -> dict[str, Any]:
+        """사업보고서 숫자로 30초 안팎 숏폼 브리핑 대본을 만든다. 장면별 자막(숫자는 도구 값만), SRT,
+        영상 생성용 프롬프트(글자·숫자·로고 없는 배경 영상), 근거 facts와 DART 링크를 돌려준다.
+        영상 생성 도구에는 scenes[].visual_prompt만 넘기고, 숫자는 자막으로만 넣는다."""
+        return make_briefing_fn(tools, company, year, date)
+
+    @server.tool()
+    @_wrap
+    def check_briefing_numbers(
+        company: Company,
+        year: Year,
+        date: Annotated[str, Field(description="make_briefing에 쓴 기준일")],
+        script: Annotated[str, Field(description="고쳐 쓴 자막·내레이션 전체")],
+    ) -> dict[str, Any]:
+        """대본에 들어간 숫자가 모두 make_briefing의 facts(도구 값)나 연도·기준일에 있는지 검사한다.
+        unknown이 비어 있지 않으면 그 숫자를 지우거나 facts 값으로 바꾼다."""
+        b = make_briefing_fn(tools, company, year, date)
+        return check_numbers(script, b["facts"], b["allowed_numbers"])
 
     return server
 

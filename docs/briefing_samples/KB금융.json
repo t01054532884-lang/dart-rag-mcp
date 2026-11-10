@@ -1,0 +1,113 @@
+{
+  "company": "KB금융",
+  "year": 2025,
+  "price_date": "2026-11-09",
+  "facts": [
+    {
+      "id": "operating_income",
+      "label": "2025년 영업이익",
+      "value": 8517711000000,
+      "display": "8.52조원",
+      "source": {
+        "rcept_no": "20260619000667",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000667"
+      }
+    },
+    {
+      "id": "net_income",
+      "label": "2025년 당기순이익",
+      "value": 5840715000000,
+      "display": "5.84조원",
+      "source": {
+        "rcept_no": "20260619000667",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000667"
+      }
+    },
+    {
+      "id": "operating_income_growth",
+      "label": "영업이익 증가율(%)",
+      "value": 5.87,
+      "display": "5.9%",
+      "source": {
+        "rcept_no": "20260619000667",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000667"
+      }
+    },
+    {
+      "id": "debt_ratio",
+      "label": "부채비율(%)",
+      "value": 1211.73,
+      "display": "1,211.7%",
+      "source": {
+        "rcept_no": "20260619000667",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000667"
+      }
+    },
+    {
+      "id": "roe",
+      "label": "ROE(%)",
+      "value": 9.98,
+      "display": "10.0%",
+      "source": {
+        "rcept_no": "20260619000667",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000667"
+      }
+    },
+    {
+      "id": "market_cap",
+      "label": "2026-11-09 시가총액",
+      "value": 53967452161000,
+      "display": "53.97조원",
+      "source": {
+        "rcept_no": "20260619000667",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000667"
+      }
+    },
+    {
+      "id": "per",
+      "label": "후행 PER",
+      "value": 9.25,
+      "display": "9.2배",
+      "source": {
+        "rcept_no": "20260619000667",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000667"
+      }
+    },
+    {
+      "id": "pbr",
+      "label": "PBR",
+      "value": 0.91,
+      "display": "0.9배",
+      "source": {
+        "rcept_no": "20260619000667",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000667"
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "intro",
+      "seconds": 4.0,
+      "caption": "KB금융 2025년 사업보고서 브리핑",
+      "visual_prompt": "modern city financial district at dusk, glass towers, cinematic slow push-in, no text, no numbers, no letters, no logos, no brand names, no charts with labels"
+    },
+    {
+      "id": "profit",
+      "seconds": 5.0,
+      "caption": "영업이익 8.52조원",
+      "visual_prompt": "modern city financial district at dusk, glass towers, focused workers, steady camera, no text, no numbers, no letters, no logos, no brand names, no charts with labels"
+    },
+    {
+      "id": "valuation",
+      "seconds": 5.0,
+      "caption": "시가총액 53.97조원 · PER 9.2배 · PBR 0.9배",
+      "visual_prompt": "abstract stock market light trails, dark background, no text, no numbers, no letters, no logos, no brand names, no charts with labels"
+    },
+    {
+      "id": "source",
+      "seconds": 3.0,
+      "caption": "출처: DART 사업보고서 · 투자 권유 아님",
+      "visual_prompt": "modern city financial district at dusk, glass towers, slow fade out, no text, no numbers, no letters, no logos, no brand names, no charts with labels"
+    }
+  ]
+}

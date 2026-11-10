@@ -59,6 +59,14 @@ flowchart LR
 | `compare_companies` | 여러 회사 지표 비교표 |
 | `price_history` | 기간 수익률, 최고·최저가, 평균 거래량 |
 | `valuation` | 기준일 시가총액, 후행 PER·PBR |
+| `make_briefing` | 숏폼 브리핑 대본: 장면별 자막(숫자는 도구 값만)·SRT·영상 생성용 프롬프트(글자·숫자 없음) |
+| `check_briefing_numbers` | 고쳐 쓴 대본의 숫자가 모두 도구 값에 있는지 검사 |
+
+### 확장: 공시 → 숏폼 브리핑 영상
+
+같은 Claude Code에 영상 생성 MCP(Higgsfield)를 함께 붙여, 숫자는 이 서버가 자막으로 만들고 영상 모델은 글자 없는 배경만 만들게 나눴습니다.
+30곳 대본의 자막 숫자 209개가 모두 도구 값과 일치했고, 숫자 하나를 일부러 바꾼 대본 30건은 모두 검사에서 걸렸습니다. 영상 생성은 아직 실행하지 않았습니다.
+자세한 내용: [docs/shortform.md](docs/shortform.md)
 
 ## 실행 방법 (Windows, Python 3.11+)
 

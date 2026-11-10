@@ -1,0 +1,562 @@
+{
+  "summary": {
+    "date": "2026-11-09",
+    "year": 2025,
+    "companies": 30,
+    "caption_numbers_total": 209,
+    "caption_ok": 30,
+    "prompts_with_digits": 0,
+    "mutations_tested": 30,
+    "mutations_caught": 30,
+    "without_revenue_scene": [
+      "삼성화재해상보험",
+      "삼성생명",
+      "신한지주",
+      "하나금융지주",
+      "KB금융"
+    ],
+    "without_valuation_scene": [
+      "신한지주",
+      "LG전자",
+      "셀트리온",
+      "HD현대중공업"
+    ],
+    "seconds_min_max": [
+      12.0,
+      22.0
+    ]
+  },
+  "rows": [
+    {
+      "company": "기아",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "SK하이닉스",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "삼성화재해상보험",
+      "scenes": [
+        "intro",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 17.0,
+      "facts": 8,
+      "caption_numbers": 5,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "현대자동차",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "POSCO홀딩스",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "삼성전자",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "삼성SDI",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 10,
+      "caption_numbers": 7,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "현대모비스",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "한화에어로스페이스",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "한국전력공사",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "SK텔레콤",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "삼성물산",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "케이티",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "삼성생명",
+      "scenes": [
+        "intro",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 17.0,
+      "facts": 8,
+      "caption_numbers": 5,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "NAVER",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "카카오",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "NC",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "LG화학",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 10,
+      "caption_numbers": 7,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "신한지주",
+      "scenes": [
+        "intro",
+        "profit",
+        "source"
+      ],
+      "seconds": 12.0,
+      "facts": 5,
+      "caption_numbers": 2,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "LG전자",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "source"
+      ],
+      "seconds": 17.0,
+      "facts": 8,
+      "caption_numbers": 5,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "셀트리온",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "source"
+      ],
+      "seconds": 17.0,
+      "facts": 8,
+      "caption_numbers": 5,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "하나금융지주",
+      "scenes": [
+        "intro",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 17.0,
+      "facts": 8,
+      "caption_numbers": 5,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "아모레퍼시픽",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "CJ제일제당",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 10,
+      "caption_numbers": 7,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "KB금융",
+      "scenes": [
+        "intro",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 17.0,
+      "facts": 8,
+      "caption_numbers": 5,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "이마트",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "삼성바이오로직스",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "크래프톤",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 11,
+      "caption_numbers": 8,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "HD현대중공업",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "source"
+      ],
+      "seconds": 17.0,
+      "facts": 8,
+      "caption_numbers": 5,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    },
+    {
+      "company": "LG에너지솔루션",
+      "scenes": [
+        "intro",
+        "revenue",
+        "profit",
+        "valuation",
+        "source"
+      ],
+      "seconds": 22.0,
+      "facts": 10,
+      "caption_numbers": 7,
+      "caption_ok": true,
+      "unknown": [],
+      "prompt_has_digit": false,
+      "mutation_caught": true,
+      "snippet": true
+    }
+  ]
+}
